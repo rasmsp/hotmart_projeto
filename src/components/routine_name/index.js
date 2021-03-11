@@ -1,15 +1,21 @@
-import "./style.css";
+import React from 'react';
+import './style.css';
 import { Breadcrumb } from 'react-bootstrap';
 
-export  default function  Routine_name  ({menu,menu_1,menu_2})  {
-
+export default function RoutineName({ menu, menuOne, menuTwo }) {
   return (
-
-    <Breadcrumb>
-      <Breadcrumb.Item active className="breadcrum-disabled">{menu}</Breadcrumb.Item>
-      <Breadcrumb.Item active className="breadcrum-disabled">{menu_1}</Breadcrumb.Item>
-      <Breadcrumb.Item active className="breadcrum-enabled">{menu_2}</Breadcrumb.Item>
-    </Breadcrumb>
- 
+    <>
+      <Breadcrumb>
+        <Breadcrumb.Item active className="breadcrum-disabled">
+          {menu}
+        </Breadcrumb.Item>
+        <Breadcrumb.Item active className="breadcrum-disabled">
+          {menuOne}
+        </Breadcrumb.Item>
+        <Breadcrumb.Item active className="breadcrum-enabled">
+          {menuTwo}
+        </Breadcrumb.Item>
+      </Breadcrumb>
+    </>
   );
-};
+}

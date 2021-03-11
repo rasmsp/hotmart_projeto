@@ -1,8 +1,5 @@
-export  default function  Header  ()  {
+import React from 'react';
 
-  return (
-
-      <div style={{backgroundColor:'#244e5a',height:50}} />		      
- 
-  );
-};
+export default function Header() {
+  return <div style={{ backgroundColor: '#244e5a', height: 50 }} />;
+}
