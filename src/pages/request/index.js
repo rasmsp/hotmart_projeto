@@ -20,7 +20,7 @@ export default function Request() {
 
   return (
     <>
-      <RoutineName menu="Paniel" menuOne="Solicitação" menuTwo="Solicitação" />
+      <RoutineName menu="Painel" menuOne="Solicitação" menuTwo="Solicitação" />
       <div className="container-fluid">
         <Row>
           <Col md="8">
