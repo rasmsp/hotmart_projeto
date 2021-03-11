@@ -5,6 +5,12 @@ Projeto de desafio da Hotmart
 ## Ferramentas utilizadas
 
 - Visual Code 1.54.1
+
+- Node v10.14.1
+
+- Node Package Manager (npm) 6.14.11
+
+- Reactjs 17.0.1
  
 - Extensão EditorConfig 3.191
  
@@ -31,9 +37,12 @@ Projeto de desafio da Hotmart
 
 
 ## Executar projeto 
-- npm start ou 
+- npm install (Executar na raiz do projeto)
 
-- gerar publicação npm run build
+- npm start (Executar na raiz do projeto)
+
+## Deploy
+- npm run build
 
 ## Publicação testada no iis 7.5 local e na publicação do Heroku
 
